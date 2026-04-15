@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlugStudio — Professional Plugins for Adobe After Effects</title>
+    <meta name="description" content="Native C++ plugins for Adobe After Effects. Text backgrounds, highlights, underlines, neon glow, gradients and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+
+<!-- ── Header ─────────────────────────────────────────────── -->
+<header class="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="logo-link">
+            <img src="assets/logo.png" alt="PlugStudio" class="logo-img">
+            <div class="logo-text">Plug<span>Studio</span></div>
+        </a>
+        <nav>
+            <a href="index.html" class="active">Plugins</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ── Hero ────────────────────────────────────────────────── -->
+<section class="hero">
+    <h1>Professional plugins for<br><span class="accent">Adobe After Effects</span></h1>
+    <p>Native C++ tools built for motion designers. No expressions, no scripts — pure performance.</p>
+</section>
+
+<!-- ── Search & Filters ───────────────────────────────────── -->
+<section class="search-section">
+    <div class="search-bar">
+        <div class="search-input-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+            <input type="text" class="search-input" placeholder="Search plugins...">
+        </div>
+        <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="after effects">After Effects</button>
+            <button class="filter-btn" data-filter="text">Text</button>
+            <button class="filter-btn" data-filter="smartfx">SmartFX</button>
+        </div>
+    </div>
+</section>
+
+<!-- ── Plugin Cards ───────────────────────────────────────── -->
+<section class="plugins-grid">
+
+    <!-- Keratext -->
+    <a href="plugins/keratext.html" class="plugin-card" data-name="keratext" data-tags="after effects text smartfx glow highlight underline">
+        <img src="assets/keratext-banner.png" alt="KeraText" class="plugin-card-img">
+        <div class="plugin-card-body">
+            <div class="plugin-card-tags">
+                <span class="tag tag-ae">After Effects</span>
+                <span class="tag tag-smartfx">SmartFX</span>
+                <span class="tag tag-win">Windows</span>
+            </div>
+            <h3>KeraText</h3>
+            <p>Animated text boxes, highlights, and underlines with neon glow, gradients, and matting. 100 highlight &amp; underline slots.</p>
+            <div class="plugin-card-footer">
+                <span class="price">$19</span>
+                <span class="btn btn-primary">View Details</span>
+            </div>
+        </div>
+    </a>
+
+    <!-- Placeholder cards for future plugins — hidden until content added -->
+    <!--
+    <a href="#" class="plugin-card" data-name="plugin2" data-tags="after effects">
+        <img src="assets/plugin2-preview.png" alt="Plugin 2" class="plugin-card-img">
+        <div class="plugin-card-body">
+            <div class="plugin-card-tags">
+                <span class="tag tag-ae">After Effects</span>
+            </div>
+            <h3>Plugin Name</h3>
+            <p>Description here.</p>
+            <div class="plugin-card-footer">
+                <span class="price">$XX</span>
+                <span class="btn btn-primary">View Details</span>
+            </div>
+        </div>
+    </a>
+    -->
+
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>&copy; <span class="current-year">2026</span> PlugStudio. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="contact.html">Contact</a>
+            <a href="mailto:plugstudioou@gmail.com">Support</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
