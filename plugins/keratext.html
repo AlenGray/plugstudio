@@ -298,6 +298,7 @@
             <div class="plugin-badges">
                 <span class="badge">After Effects 2024+</span>
                 <span class="badge">Windows x64</span>
+                <span class="badge">macOS (Intel + Apple Silicon)</span>
                 <span class="badge">Native C++</span>
                 <span class="badge">SmartFX</span>
                 <span class="badge">8 / 16 bpc</span>
@@ -347,11 +348,11 @@
                 <li>All future updates included</li>
                 <li>50 highlight slots</li>
                 <li>50 underline slots</li>
-                <li>4-component neon glow</li>
+                <li>5-component neon glow + Overlay</li>
                 <li>Gradient on all components</li>
                 <li>Matting &amp; subtract modes</li>
                 <li>SmartFX rendering</li>
-                <li>Installer with auto-detect</li>
+                <li>Windows installer + macOS bundle</li>
             </ul>
         </div>
     </div>
@@ -418,10 +419,11 @@
     </div>
     <div class="feature-block-content"><ul>
         <li>Multi-pass neon glow rendering</li>
-        <li>Independent per component (BG, Border, HL, UL)</li>
+        <li>5 independent components (BG, Border, HL, UL, Overlay)</li>
         <li>Radius, Spread, Intensity, Opacity</li>
         <li>Gradient-safe color preservation</li>
-        <li>Additive composite for authentic neon</li>
+        <li>Additive &amp; Overlay composite modes</li>
+        <li>Overlay Glow — full-effect glow layer on top</li>
         <li>Matte-aware glow source</li>
     </ul></div>
 
@@ -493,7 +495,8 @@
 <section style="max-width: var(--max-width); margin: 0 auto; padding: 0 2rem 1.5rem;">
     <h2 style="font-size: 1.8rem; font-weight: 700;">Installation</h2>
 </section>
-<section style="max-width: var(--max-width); margin: 0 auto; padding: 0 2rem 5rem;">
+<section style="max-width: var(--max-width); margin: 0 auto; padding: 0 2rem 1.5rem;">
+    <h3 style="font-size: 1.1rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.5rem;">Windows</h3>
     <div class="install-steps">
         <div class="install-step">
             <div class="step-num">1</div>
@@ -504,6 +507,26 @@
             <div class="step-num">2</div>
             <h3>Install</h3>
             <p>Run <strong>Keratext_Setup.exe</strong> — it auto-detects your AE version. Or copy .aex to <code>Plug-ins\KeraText\</code></p>
+        </div>
+        <div class="install-step">
+            <div class="step-num">3</div>
+            <h3>Create</h3>
+            <p>Restart After Effects, create a Text Layer, apply <strong>Effect → KeraText → KeraText</strong>.</p>
+        </div>
+    </div>
+</section>
+<section style="max-width: var(--max-width); margin: 0 auto; padding: 0 2rem 5rem;">
+    <h3 style="font-size: 1.1rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.5rem; margin-top: 1.5rem;">macOS</h3>
+    <div class="install-steps">
+        <div class="install-step">
+            <div class="step-num">1</div>
+            <h3>Download</h3>
+            <p>Download <strong>Keratext_macOS_v1.0.0.zip</strong> and unzip it.</p>
+        </div>
+        <div class="install-step">
+            <div class="step-num">2</div>
+            <h3>Copy</h3>
+            <p>Copy <code>Keratext.plugin</code> to <code>/Library/Application&nbsp;Support/Adobe/Common/Plug-ins/7.0/MediaCore/KeraText/</code></p>
         </div>
         <div class="install-step">
             <div class="step-num">3</div>
